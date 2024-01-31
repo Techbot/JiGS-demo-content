@@ -1,0 +1,195 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 33016d96-c1b9-4362-9be9-f79f1de0a53a
+  bundle: map_grid
+  default_langcode: en
+  depends:
+    f6fc8bde-c606-419f-b1e3-500544cd15dd: node
+    2e00fc0b-9c49-4c4b-b8c8-e7ddf3b004ff: taxonomy_term
+    d4b0100b-022b-487f-90b1-9e544769e30b: taxonomy_term
+    0565b0d9-225e-42ac-bf53-046d01d3b386: node
+    451a4996-627f-4cb7-b1e9-07c72889ebb3: node
+    6415e584-2814-4681-9c88-2dae0862403e: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '001 Dublin - City Center'
+  created:
+    -
+      value: 1705665822
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_city:
+    -
+      entity: f6fc8bde-c606-419f-b1e3-500544cd15dd
+  field_layer_1:
+    -
+      entity: 2e00fc0b-9c49-4c4b-b8c8-e7ddf3b004ff
+  field_layer_2:
+    -
+      entity: d4b0100b-022b-487f-90b1-9e544769e30b
+    -
+      entity: 2e00fc0b-9c49-4c4b-b8c8-e7ddf3b004ff
+  field_layer_3:
+    -
+      entity: 2e00fc0b-9c49-4c4b-b8c8-e7ddf3b004ff
+  field_layer_4:
+    -
+      entity: 2e00fc0b-9c49-4c4b-b8c8-e7ddf3b004ff
+  field_layer_5:
+    -
+      entity: 2e00fc0b-9c49-4c4b-b8c8-e7ddf3b004ff
+  field_map_height:
+    -
+      value: 120
+  field_map_width:
+    -
+      value: 120
+  field_mobs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 99793c53-21f9-453d-af42-47fd82f8021d
+          bundle: mobs
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706180919
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_level:
+            -
+              value: 1
+          field_mob_name:
+            -
+              value: grrrr
+          field_mobs:
+            -
+              entity: 0565b0d9-225e-42ac-bf53-046d01d3b386
+          field_x:
+            -
+              value: 100
+          field_y:
+            -
+              value: 100
+  field_npc:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4ecc78db-90d8-4b2e-9d37-4edd49b0dbb6
+          bundle: npc
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706642225
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_name:
+            -
+              entity: 451a4996-627f-4cb7-b1e9-07c72889ebb3
+          field_x:
+            -
+              value: 420
+          field_y:
+            -
+              value: 420
+  field_rewards:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0fcf59f6-d50b-45e0-90fc-dff9ab1493f9
+          bundle: rewards
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706642245
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_ref:
+            -
+              value: x001
+          field_reward_item:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 84cdf1c5-5418-4759-b401-9dca9be17869
+                  bundle: reward_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1706645238
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_item:
+                    -
+                      entity: 6415e584-2814-4681-9c88-2dae0862403e
+          field_x:
+            -
+              value: 840
+          field_y:
+            -
+              value: 840
+  field_tiled:
+    -
+      value: 1

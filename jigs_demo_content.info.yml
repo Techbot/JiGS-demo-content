@@ -1,0 +1,36 @@
+name: 'JiGS demo content'
+description: Install demo content.
+type: module
+core_version_requirement: ^9 || ^10
+package: 'JiGS'
+dependencies:
+  - default_content:default_content
+default_content:
+  node:
+  - ff690241-146d-4a2c-b107-28529f746008
+  - f6fc8bde-c606-419f-b1e3-500544cd15dd
+  - 33016d96-c1b9-4362-9be9-f79f1de0a53a
+  - 0565b0d9-225e-42ac-bf53-046d01d3b386
+  - ba9e4061-a213-40e0-8f17-bdffa4eda6ac
+  - 6920c31d-174f-4865-8185-a50d29674095
+  - 451a4996-627f-4cb7-b1e9-07c72889ebb3
+  - 6415e584-2814-4681-9c88-2dae0862403e
+  - dd710392-75ca-46b5-a49b-9d639356cabc
+  - a3a432c4-7a7e-4c69-8087-a545c64db8c5
+  taxonomy_term:
+  - d4b0100b-022b-487f-90b1-9e544769e30b
+  - 2e00fc0b-9c49-4c4b-b8c8-e7ddf3b004ff
+  - 2b611a76-32c5-4b17-abf5-6b87aaf51c29
+  - 7d3fd514-cc49-4aaa-8133-e27a3e91c9bd
+  - 6d593e8c-e411-4e80-a7fb-d3a2eee8c0c0
+  - 24e5da17-a438-47a0-9769-85167b95f77c
+  - 12286216-be6f-4f19-ab83-fd320671ef8e
+  - 47b24664-61dd-4d68-a0d8-10035b780614
+  - d8dff635-2144-4cb3-acd0-dc9c9fef09a1
+  - d76fcd85-64d7-4ee8-a0f6-ffdb91ccc3c4
+  - 849befe3-5fcb-42ea-b049-ae88a5e8acda
+  profile:
+  - 64c1ae38-32ed-4bed-806e-1b9160ccc1f8
+  - 25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e
+  user:
+  - c01eda2e-7e6f-467b-9cab-fd286e2b43fb

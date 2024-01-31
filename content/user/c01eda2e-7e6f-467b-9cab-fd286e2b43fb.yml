@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
+  default_langcode: en
+  depends:
+    25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e: profile
+    64c1ae38-32ed-4bed-806e-1b9160ccc1f8: profile
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: left23
+  pass:
+    -
+      value: $2y$10$Yhwy3wVq7KyiBuxJV6tDLOKFOT03NZd4oUoMtZhwNy8wh3X0qEmuC
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: email@gmail.com
+  timezone:
+    -
+      value: Europe/Amsterdam
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1706557296
+  access:
+    -
+      value: 1706560715
+  login:
+    -
+      value: 1706557949
+  init:
+    -
+      value: email@gmail.com
+  roles:
+    -
+      target_id: player
+  faction_profiles:
+    -
+      entity: 25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e
+  player_profiles:
+    -
+      entity: 64c1ae38-32ed-4bed-806e-1b9160ccc1f8
+  field_game_state:
+    -
+      value: GamePhaser
+  field_sprite_sheet:
+    -
+      value: PsibotF

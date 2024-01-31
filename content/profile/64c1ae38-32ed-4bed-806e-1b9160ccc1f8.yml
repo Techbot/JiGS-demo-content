@@ -1,0 +1,245 @@
+_meta:
+  version: '1.0'
+  entity_type: profile
+  uuid: 64c1ae38-32ed-4bed-806e-1b9160ccc1f8
+  bundle: player
+  depends:
+    c01eda2e-7e6f-467b-9cab-fd286e2b43fb: user
+    dd710392-75ca-46b5-a49b-9d639356cabc: node
+    ba9e4061-a213-40e0-8f17-bdffa4eda6ac: node
+    7d3fd514-cc49-4aaa-8133-e27a3e91c9bd: taxonomy_term
+    33016d96-c1b9-4362-9be9-f79f1de0a53a: node
+    6920c31d-174f-4865-8185-a50d29674095: node
+default:
+  revision_user:
+    -
+      entity: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
+  is_default:
+    -
+      value: true
+  created:
+    -
+      value: 1706557348
+  field_charisma:
+    -
+      value: 3
+  field_credits:
+    -
+      value: 1472
+  field_dexterity:
+    -
+      value: 10
+  field_endurance:
+    -
+      value: 10
+  field_energy:
+    -
+      value: 10
+  field_game_state:
+    -
+      value: GamePhaser
+  field_health:
+    -
+      value: 100
+  field_intelligence:
+    -
+      value: 10
+  field_inventory:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: cfa40ab5-2661-4954-aa99-a38ece6dfb96
+          bundle: components
+          default_langcode: und
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706626697
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_components:
+            -
+              entity: dd710392-75ca-46b5-a49b-9d639356cabc
+          field_location:
+            -
+              value: Backpack
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0ddf973a-9d15-4306-8178-d68543c91810
+          bundle: weapon
+          default_langcode: und
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706626715
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_location:
+            -
+              value: Backpack
+          field_weapon:
+            -
+              entity: ba9e4061-a213-40e0-8f17-bdffa4eda6ac
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2805fc04-1cea-420d-b5fc-ca690c9d2863
+          bundle: ammunition
+          default_langcode: und
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706645441
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_ammo_type:
+            -
+              entity: 7d3fd514-cc49-4aaa-8133-e27a3e91c9bd
+          field_amount:
+            -
+              value: 1
+  field_left_weapon:
+    -
+      value: 1
+  field_level:
+    -
+      value: 1
+  field_losses:
+    -
+      value: 1
+  field_map:
+    -
+      value: 1
+  field_map_grid:
+    -
+      entity: 33016d96-c1b9-4362-9be9-f79f1de0a53a
+  field_missions:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 30871dd0-08f0-4302-a2ed-a059f78dca71
+          bundle: missions
+          default_langcode: und
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706557348
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+  field_missions_completed:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 86ca1a05-4dba-42d9-91fc-8af01695a8e0
+          bundle: missions
+          default_langcode: und
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706557348
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+  field_nanites:
+    -
+      value: 1
+  field_psi:
+    -
+      value: 10
+  field_right_weapon:
+    -
+      value: 1
+  field_skill:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0a3d07be-87b2-4dfa-8c0a-5ea958241ab1
+          bundle: skill
+          default_langcode: und
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706557348
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_skill:
+            -
+              entity: 6920c31d-174f-4865-8185-a50d29674095
+          field_skill_level:
+            -
+              value: 1
+  field_strength:
+    -
+      value: 10
+  field_wins:
+    -
+      value: 1
+  field_x:
+    -
+      value: 416
+  field_xp:
+    -
+      value: 1
+  field_y:
+    -
+      value: 1504

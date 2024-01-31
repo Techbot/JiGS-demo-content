@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 451a4996-627f-4cb7-b1e9-07c72889ebb3
+  bundle: npc
+  default_langcode: en
+  depends:
+    849befe3-5fcb-42ea-b049-ae88a5e8acda: taxonomy_term
+    a3a432c4-7a7e-4c69-8087-a545c64db8c5: node
+    47b24664-61dd-4d68-a0d8-10035b780614: taxonomy_term
+    d8dff635-2144-4cb3-acd0-dc9c9fef09a1: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drax the Road Warrior'
+  created:
+    -
+      value: 1706626518
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_bark:
+    -
+      value: "You better watch your back! If I see you outside the city walls, you won't be breathin'"
+  field_concerns:
+    -
+      entity: 849befe3-5fcb-42ea-b049-ae88a5e8acda
+  field_faction:
+    -
+      entity: a3a432c4-7a7e-4c69-8087-a545c64db8c5
+  field_is_handler:
+    -
+      value: false
+  field_occupation:
+    -
+      entity: 47b24664-61dd-4d68-a0d8-10035b780614
+  field_race:
+    -
+      entity: d8dff635-2144-4cb3-acd0-dc9c9fef09a1
+  field_sprite_sheet:
+    -
+      value: -4

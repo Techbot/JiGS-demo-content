@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0565b0d9-225e-42ac-bf53-046d01d3b386
+  bundle: mob
+  default_langcode: en
+  depends:
+    24e5da17-a438-47a0-9769-85167b95f77c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Green Zombie'
+  created:
+    -
+      value: 1706180905
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_mob_sprite_sheet:
+    -
+      value: 87542
+  field_type:
+    -
+      entity: 24e5da17-a438-47a0-9769-85167b95f77c

@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a3a432c4-7a7e-4c69-8087-a545c64db8c5
+  bundle: faction
+  default_langcode: en
+  depends:
+    2b611a76-32c5-4b17-abf5-6b87aaf51c29: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Red Hand'
+  created:
+    -
+      value: 1706626645
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_faction_type:
+    -
+      entity: 2b611a76-32c5-4b17-abf5-6b87aaf51c29

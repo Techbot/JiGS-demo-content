@@ -1,0 +1,95 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6415e584-2814-4681-9c88-2dae0862403e
+  bundle: items
+  default_langcode: en
+  depends:
+    d76fcd85-64d7-4ee8-a0f6-ffdb91ccc3c4: taxonomy_term
+    dd710392-75ca-46b5-a49b-9d639356cabc: node
+    12286216-be6f-4f19-ab83-fd320671ef8e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Cup of Tea'
+  created:
+    -
+      value: 1706626596
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_item_type:
+    -
+      entity: d76fcd85-64d7-4ee8-a0f6-ffdb91ccc3c4
+  field_materials:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 708a8d04-f31b-4a49-bb5e-8d1e573f486e
+          bundle: components
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706626596
+          behavior_settings:
+            -
+              value: {  }
+          field_components:
+            -
+              entity: dd710392-75ca-46b5-a49b-9d639356cabc
+          field_location:
+            -
+              value: Backpack
+  field_modifiers:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e4fffef5-2b52-4cf7-904d-66b19610de9a
+          bundle: modifier
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706626596
+          behavior_settings:
+            -
+              value: {  }
+          field_attribute:
+            -
+              entity: 12286216-be6f-4f19-ab83-fd320671ef8e
+          field_duration:
+            -
+              value: 100
+          field_value:
+            -
+              value: 1

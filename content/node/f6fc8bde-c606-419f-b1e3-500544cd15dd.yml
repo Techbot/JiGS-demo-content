@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f6fc8bde-c606-419f-b1e3-500544cd15dd
+  bundle: city
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Dublin
+  created:
+    -
+      value: 1705665724
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_city_climate:
+    -
+      value: 3
+  field_city_crime_level:
+    -
+      value: 1
+  field_city_education_level:
+    -
+      value: 1
+  field_city_politics:
+    -
+      value: 1
+  field_city_pollution:
+    -
+      value: 1
+  field_city_population:
+    -
+      value: 1
+  field_city_technology:
+    -
+      value: 1

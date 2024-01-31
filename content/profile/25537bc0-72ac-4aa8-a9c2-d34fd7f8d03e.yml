@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: profile
+  uuid: 25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e
+  bundle: faction
+  depends:
+    c01eda2e-7e6f-467b-9cab-fd286e2b43fb: user
+    a3a432c4-7a7e-4c69-8087-a545c64db8c5: node
+default:
+  revision_user:
+    -
+      entity: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
+  is_default:
+    -
+      value: true
+  created:
+    -
+      value: 1706645385
+  field_faction:
+    -
+      entity: a3a432c4-7a7e-4c69-8087-a545c64db8c5

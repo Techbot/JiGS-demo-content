@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ba9e4061-a213-40e0-8f17-bdffa4eda6ac
+  bundle: weapon
+  default_langcode: en
+  depends:
+    7d3fd514-cc49-4aaa-8133-e27a3e91c9bd: taxonomy_term
+    12286216-be6f-4f19-ab83-fd320671ef8e: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sword Of Hopelessness'
+  created:
+    -
+      value: 1706626446
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_ammo_type:
+    -
+      entity: 7d3fd514-cc49-4aaa-8133-e27a3e91c9bd
+  field_modifiers:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 90523b32-9365-468e-9884-70f6f00ae447
+          bundle: modifier
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1706626446
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_attribute:
+            -
+              entity: 12286216-be6f-4f19-ab83-fd320671ef8e
+          field_duration:
+            -
+              value: 100
+          field_value:
+            -
+              value: 1

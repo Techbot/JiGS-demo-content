@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 787c8646-b3ef-4f3a-86a4-250d0217b725
+  default_langcode: en
+  depends:
+    64c1ae38-32ed-4bed-806e-1b9160ccc1f8: profile
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: admin
+  pass:
+    -
+      value: $2y$10$Y2ijlaX8LRIPotMK0w2ote18tiZiqDy./p7qIgrjLKW/ULHN19vwa
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: admin@example.com
+  timezone:
+    -
+      value: Europe/Amsterdam
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1706733392
+  access:
+    -
+      value: 1706733950
+  login:
+    -
+      value: 1706733422
+  init:
+    -
+      value: admin@example.com
+  player_profiles:
+    -
+      entity: 64c1ae38-32ed-4bed-806e-1b9160ccc1f8

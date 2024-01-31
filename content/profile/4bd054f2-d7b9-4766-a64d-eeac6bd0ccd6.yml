@@ -1,36 +1,36 @@
 _meta:
   version: '1.0'
   entity_type: profile
-  uuid: 64c1ae38-32ed-4bed-806e-1b9160ccc1f8
+  uuid: 4bd054f2-d7b9-4766-a64d-eeac6bd0ccd6
   bundle: player
   depends:
+    c01eda2e-7e6f-467b-9cab-fd286e2b43fb: user
     dd710392-75ca-46b5-a49b-9d639356cabc: node
     ba9e4061-a213-40e0-8f17-bdffa4eda6ac: node
-    7d3fd514-cc49-4aaa-8133-e27a3e91c9bd: taxonomy_term
     33016d96-c1b9-4362-9be9-f79f1de0a53a: node
     6920c31d-174f-4865-8185-a50d29674095: node
 default:
   revision_user:
     -
-      target_id: 1
+      entity: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
   status:
     -
       value: true
   uid:
     -
-      target_id: 1
+      entity: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
   is_default:
     -
       value: true
   created:
     -
-      value: 1706557348
+      value: 1706733932
   field_charisma:
     -
-      value: 3
+      value: 1
   field_credits:
     -
-      value: 1472
+      value: 1
   field_dexterity:
     -
       value: 10
@@ -40,9 +40,6 @@ default:
   field_energy:
     -
       value: 10
-  field_game_state:
-    -
-      value: GamePhaser
   field_health:
     -
       value: 100
@@ -55,7 +52,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: cfa40ab5-2661-4954-aa99-a38ece6dfb96
+          uuid: aa4d72d7-55b1-44b1-afef-033771c4619d
           bundle: components
           default_langcode: und
         default:
@@ -64,7 +61,7 @@ default:
               value: true
           created:
             -
-              value: 1706626697
+              value: 1706733932
           behavior_settings:
             -
               value: {  }
@@ -82,7 +79,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 0ddf973a-9d15-4306-8178-d68543c91810
+          uuid: 52dca233-0177-4a38-9b6a-b11bb42f6817
           bundle: weapon
           default_langcode: und
         default:
@@ -91,7 +88,7 @@ default:
               value: true
           created:
             -
-              value: 1706626715
+              value: 1706733946
           behavior_settings:
             -
               value: {  }
@@ -104,33 +101,6 @@ default:
           field_weapon:
             -
               entity: ba9e4061-a213-40e0-8f17-bdffa4eda6ac
-    -
-      entity:
-        _meta:
-          version: '1.0'
-          entity_type: paragraph
-          uuid: 2805fc04-1cea-420d-b5fc-ca690c9d2863
-          bundle: ammunition
-          default_langcode: und
-        default:
-          status:
-            -
-              value: true
-          created:
-            -
-              value: 1706645441
-          behavior_settings:
-            -
-              value: {  }
-          revision_translation_affected:
-            -
-              value: true
-          field_ammo_type:
-            -
-              entity: 7d3fd514-cc49-4aaa-8133-e27a3e91c9bd
-          field_amount:
-            -
-              value: 1
   field_left_weapon:
     -
       value: 1
@@ -152,7 +122,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 30871dd0-08f0-4302-a2ed-a059f78dca71
+          uuid: 05456fd0-4148-4875-be35-99d75ac59ed8
           bundle: missions
           default_langcode: und
         default:
@@ -161,7 +131,7 @@ default:
               value: true
           created:
             -
-              value: 1706557348
+              value: 1706733932
           behavior_settings:
             -
               value: {  }
@@ -174,7 +144,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 86ca1a05-4dba-42d9-91fc-8af01695a8e0
+          uuid: e3a81eb4-16bc-4569-b6c2-329d7efe5065
           bundle: missions
           default_langcode: und
         default:
@@ -183,7 +153,7 @@ default:
               value: true
           created:
             -
-              value: 1706557348
+              value: 1706733932
           behavior_settings:
             -
               value: {  }
@@ -205,7 +175,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 0a3d07be-87b2-4dfa-8c0a-5ea958241ab1
+          uuid: 9819663c-5f3c-4332-a40c-bc5e03046aa4
           bundle: skill
           default_langcode: und
         default:
@@ -214,7 +184,7 @@ default:
               value: true
           created:
             -
-              value: 1706557348
+              value: 1706733932
           behavior_settings:
             -
               value: {  }
@@ -226,7 +196,7 @@ default:
               entity: 6920c31d-174f-4865-8185-a50d29674095
           field_skill_level:
             -
-              value: 1
+              value: 0
   field_strength:
     -
       value: 10

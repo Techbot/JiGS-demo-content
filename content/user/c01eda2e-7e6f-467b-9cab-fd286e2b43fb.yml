@@ -5,7 +5,7 @@ _meta:
   default_langcode: en
   depends:
     25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e: profile
-    64c1ae38-32ed-4bed-806e-1b9160ccc1f8: profile
+    4bd054f2-d7b9-4766-a64d-eeac6bd0ccd6: profile
 default:
   preferred_langcode:
     -
@@ -18,7 +18,7 @@ default:
       value: left23
   pass:
     -
-      value: $2y$10$Yhwy3wVq7KyiBuxJV6tDLOKFOT03NZd4oUoMtZhwNy8wh3X0qEmuC
+      value: $2y$10$Y2ijlaX8LRIPotMK0w2ote18tiZiqDy./p7qIgrjLKW/ULHN19vwa
       existing: ''
       pre_hashed: false
   mail:
@@ -50,10 +50,4 @@ default:
       entity: 25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e
   player_profiles:
     -
-      entity: 64c1ae38-32ed-4bed-806e-1b9160ccc1f8
-  field_game_state:
-    -
-      value: GamePhaser
-  field_sprite_sheet:
-    -
-      value: PsibotF
+      entity: 4bd054f2-d7b9-4766-a64d-eeac6bd0ccd6

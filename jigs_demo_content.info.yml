@@ -5,6 +5,7 @@ core_version_requirement: ^9 || ^10
 package: 'JiGS'
 dependencies:
   - default_content:default_content
+  - jigs:jigs
 default_content:
   node:
   - ff690241-146d-4a2c-b107-28529f746008
@@ -32,5 +33,7 @@ default_content:
   profile:
   - 64c1ae38-32ed-4bed-806e-1b9160ccc1f8
   - 25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e
+  - 4bd054f2-d7b9-4766-a64d-eeac6bd0ccd6
   user:
+  - 787c8646-b3ef-4f3a-86a4-250d0217b725
   - c01eda2e-7e6f-467b-9cab-fd286e2b43fb

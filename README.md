@@ -51,10 +51,13 @@ drush sqlq "select * from taxonomy_term_data"
 12	12	concerns	849befe3-5fcb-42ea-b049-ae88a5e8acda	en
 
 drush sqlq "select * from profile"
-2	2	player	64c1ae38-32ed-4bed-806e-1b9160ccc1f8	1	2	1	a:0:{}	1706557348	1706645453
-3	3	faction	25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e	1	2	1	a:0:{}	1706645385	1706645385
+1	1	player	64c1ae38-32ed-4bed-806e-1b9160ccc1f8	1	1	1	a:0:{}	1706557348	1706733783
+2	2	faction	25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e	1	2	1	a:0:{}	1706645385	1706733859
+3	3	player	4bd054f2-d7b9-4766-a64d-eeac6bd0ccd6	1	2	1	a:0:{}	1706733932	1706733959
 
 drush sqlq "select * from users"
+1	787c8646-b3ef-4f3a-86a4-250d0217b725	en
 2	c01eda2e-7e6f-467b-9cab-fd286e2b43fb	en
+
 
 ```

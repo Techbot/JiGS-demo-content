@@ -91,12 +91,12 @@ default:
           field_level:
             -
               value: 1
-          field_mob_name:
-            -
-              value: grrrr
           field_mobs:
             -
               entity: 0565b0d9-225e-42ac-bf53-046d01d3b386
+          field_mob_name:
+            -
+              value: grrrr
           field_x:
             -
               value: 100

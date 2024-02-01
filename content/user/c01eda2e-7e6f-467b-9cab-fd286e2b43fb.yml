@@ -4,7 +4,7 @@ _meta:
   uuid: c01eda2e-7e6f-467b-9cab-fd286e2b43fb
   default_langcode: en
   depends:
-    25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e: profile
+    64c1ae38-32ed-4bed-806e-1b9160ccc1f8: profile
     4bd054f2-d7b9-4766-a64d-eeac6bd0ccd6: profile
 default:
   preferred_langcode:
@@ -47,7 +47,7 @@ default:
       target_id: player
   faction_profiles:
     -
-      entity: 25537bc0-72ac-4aa8-a9c2-d34fd7f8d03e
+      entity: 64c1ae38-32ed-4bed-806e-1b9160ccc1f8
   player_profiles:
     -
       entity: 4bd054f2-d7b9-4766-a64d-eeac6bd0ccd6
